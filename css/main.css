@@ -1,0 +1,14 @@
+header { 
+	height:200px; 
+	background-color: #007E8C; 
+}
+
+section { height: 80vh; }
+
+.welcome {
+	height: 150vh;
+	background-color: #282C42;
+}
+.contentOne { background-color: #B50039; }
+.contentTwo { background-color: #DE5500; }
+.contentThree { background-color: #B3C700; }
