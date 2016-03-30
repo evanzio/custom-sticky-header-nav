@@ -19,7 +19,8 @@
 section { height: 80vh; }
 
 .welcome {
-	height: 150vh;
+	height: 1536px;
+	background: url("/images/welcome.jpg") center no-repeat;
 	background-color: #282C42;
 }
 .contentOne { background-color: #B50039; }
