@@ -20,7 +20,7 @@ var waypoint = new Waypoint({
 // fix to bottom
 
 var waypoint2 = new Waypoint({
-	element: document.getElementById('welcome'),
+	element: document.getElementById('header-wrapper'),
 		handler: function(direction) {
  		if (direction === 'up') {
    		document.getElementById('header').style.position = 'fixed'
