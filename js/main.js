@@ -5,7 +5,6 @@
 var waypoint = new Waypoint({
 		element: document.getElementById('header-wrapper'),
 		handler: function(direction) {
-  		//console.log('Bottom of element hit bottom of viewport');
   		if (direction === 'down'){
   			document.getElementById('header').style.position = 'initial'
   		}
