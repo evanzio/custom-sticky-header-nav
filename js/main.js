@@ -3,11 +3,12 @@
 // reset position to initial
 
 var waypoint = new Waypoint({
-		element: document.getElementById('header-wrapper'),
-		handler: function(direction) {
-  		if (direction === 'down'){
-  			document.getElementById('header').style.position = 'initial'
-  		}
+	element: document.getElementById('welcome'),
+	handler: function(direction) {
+		if (direction === 'down') {
+			document.getElementById('header').style.position = 'initial'
+  			document.getElementById('header').style.bottom = 'initial'			
+		}
 	}, 
 	offset: 'bottom-in-view'
 });
@@ -19,12 +20,12 @@ var waypoint = new Waypoint({
 // fix to bottom
 
 var waypoint2 = new Waypoint({
-	element: document.getElementById('header-wrapper'),
+	element: document.getElementById('welcome'),
 		handler: function(direction) {
  		if (direction === 'up') {
-   		document.getElementById('header').style.position = 'fixed'
-		  document.getElementById('header').style.bottom = 0
-	  }
+   			document.getElementById('header').style.position = 'fixed'
+			document.getElementById('header').style.bottom = 0
+	  	}
 	},
 	offset: 'bottom-in-view'
 });
@@ -34,5 +35,5 @@ var waypoint2 = new Waypoint({
 // once element stick-head hits top stick element to top.
 
 var sticky = new Waypoint.Sticky({
-  element: $('.sticky-head')[0]
+	element: $('.sticky-head')[0]
 });
