@@ -22,7 +22,9 @@ section { height: 80vh; }
 	height: 1536px;
 	background: url("/images/welcome.jpg") center no-repeat;
 	background-color: #282C42;
+    margin-bottom:-240px; 
 }
+
 .contentOne { background-color: #B50039; }
 .contentTwo { background-color: #DE5500; }
 .contentThree { background-color: #B3C700; }
