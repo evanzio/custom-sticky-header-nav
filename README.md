@@ -1,4 +1,4 @@
-<h1>Welcome to to custom sticky header example</h1>
+<h1>Welcome to custom sticky header example</h1>
 
 <p>I am using waypoints for a custom sticky header/nav example</p>
 
